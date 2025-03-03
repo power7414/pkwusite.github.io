@@ -851,47 +851,7 @@ blockquote p {
     font-style: italic;
 }
 
-/* 響應式設計 */
-@media (max-width: 768px) {
-    header .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    nav ul {
-        margin-top: 15px;
-        justify-content: center;
-    }
-    
-    nav ul li {
-        margin: 0 10px;
-    }
-    
-    .banner {
-        padding: 60px 0;
-    }
-    
-    .banner h2 {
-        font-size: 28px;
-    }
-    
-    main {
-        flex-direction: column;
-    }
-    
-    .posts, .sidebar {
-        width: 100%;
-    }
-    
-    .author-box {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .related-posts-grid {
-        grid-template-columns: 1fr;
-    }
-}
+
 
 /* 動畫效果 */
 @keyframes glow {
